@@ -1,23 +1,25 @@
-<div align="center">
+# launch-nuke
 
-  # node-template-next
+> 💥 Only evaluate once, You can never undo.
 
-  <img src="./banner.png" alt="banner">
+## Installation
 
-</div>
+```bash
+npm install launch-nuke
+# or yarn
+yarn add launch-nuke
+```
 
-## Features
+## Usage
 
-- 🔥 Minimal [TypeScript](https://www.typescriptlang.org) based template for NodeJS
-- ⚡️ Boost development with [esbuild](https://esbuild.github.io) + [swc](https://swc.rs) + [oxc](https://oxc-project.github.io)
-- 🌍 Supports both ESM & CJS
-- 🃏 Jest environment ready
+```ts
+import { launcher } from 'launch-nuke';
 
-## Getting Started
+const launch = launcher(() => console.log('💥 launched'));
 
-Press **Use this template** button on the top. That's it.
-
-<img alt="use this template" width="142" src="./button.png">
+// Fire!
+launch();
+```
 
 ## Scripts
 
