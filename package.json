@@ -1,6 +1,7 @@
 {
-  "name": "node-template-next",
+  "name": "launch-nuke",
   "version": "0.0.0",
+  "description": "Only evaluate once, You can never undo",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/src/index.d.ts",
@@ -17,7 +18,7 @@
     "dist/src/**/*.d.ts",
     "README.md"
   ],
-  "repository": "git@github.com:leegeunhyeok/node-template-next.git",
+  "repository": "git@github.com:leegeunhyeok/launch-nuke.git",
   "author": "leegeunhyeok <dev.ghlee@gmail.com>",
   "license": "MIT",
   "scripts": {
